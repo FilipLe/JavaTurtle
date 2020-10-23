@@ -72,4 +72,9 @@ public class AdvancedDrawing extends SimpleApp {
 			t.setPenDown(true);
 		}
 	}
+	
+	public void shape4() 
+	{
+		
+	}
 }
