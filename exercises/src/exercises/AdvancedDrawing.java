@@ -58,8 +58,8 @@ public class AdvancedDrawing extends SimpleApp {
 			t.move(distance);
 			t.rotate(90);
 		}*/
-		
-		for(int distance = 10; distance < 150; distance += 5) 
+		t.setPosition(-10,-110);
+		for(int distance = 10; distance < 250; distance += 5) 
 		{
 			for(int i = 0; i < 4; i++)
 			{
@@ -67,7 +67,7 @@ public class AdvancedDrawing extends SimpleApp {
 				t.rotate(90);
 			}
 			t.setPenDown(false);
-			t.rotate(7);
+			t.rotate(4);
 			t.move(10);
 			t.setPenDown(true);
 		}
