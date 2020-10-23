@@ -2,6 +2,7 @@ package exercises;
 
 import tbs.simpleapp.SimpleApp;
 import java.util.Random;
+//Draws rectangle, bouncing off the edges
 
 public class Exercise1 extends SimpleApp{
 	Random rand = new Random();
